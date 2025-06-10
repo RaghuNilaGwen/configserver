@@ -23,6 +23,6 @@ jobs:
           distribution: 'temurin'
 
       - name: Compile using Maven
-        run: mvn clean compile
+        run: mvn clean install
         # If using Gradle instead:
         # run: ./gradlew build --dry-run
